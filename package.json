@@ -1,6 +1,6 @@
 {
   "name": "john-website",
-  "homepage": "https://johnpolasek.com/",
+  "homepage": "https://johnpolasek.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
