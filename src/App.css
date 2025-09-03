@@ -69,19 +69,29 @@ body {
 }
 
 @media (max-width: 768px) {
+  .scroll-wrapper {
+    display: block;
+    height: auto; /* allow full vertical stacking */
+  }
+
   .left-header {
-    position: static;
+    position: relative;
     width: 100%;
     height: auto;
+    max-height: none;
+    overflow-y: visible; /* or auto if you want it scrollable */
     box-shadow: none;
   }
+
   .right-content {
     margin-left: 0;
     width: 100%;
+    height: auto;
   }
+
   .header-bottom {
-  margin-top: 10px;
-}
+    margin-top: 10px;
+  }
 }
 
 .nav {
