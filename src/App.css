@@ -15,29 +15,6 @@ body {
   padding: 1px;
 }
 
-
-
-.code-lan {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 10px; /* spacing between items */
-  padding: 10px;
-}
-
-.code-lan p {
-  background-color: #007BFF; /* blue */
-  color: white;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin: 0;
-}
-
-.code-lan p:hover {
-  background-color: #66B2FF; /* lighter blue on hover */
-}
-
 .scroll-wrapper {
   display: flex;
   width: 100vw;
@@ -233,4 +210,72 @@ button{
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
+}
+
+
+/*Div and content spacing */
+
+.code-lan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+  gap: 10px;                              /* spacing between items */
+  padding: 10px;
+}
+
+.code-lan p {
+  background-color: #007BFF; 
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.code-lan p:hover {
+  background-color: #66B2FF; 
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* spacing between items */
+  padding: 10px;
+}
+
+.courses p {
+  background-color: #007BFF; /* blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.courses p:hover {
+  background-color: #66B2FF; /* lighter blue on hover */
+}
+
+
+.projects div {
+  background-color: rgba(14, 1, 92, 0.509);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.projects div:hover {
+  background-color: rgba(15, 1, 92, 0.621);
+}
+
+.expirence div {
+  background-color: rgba(14, 1, 92, 0.509);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.expirence div:hover {
+  background-color: rgba(15, 1, 92, 0.621);
 }
