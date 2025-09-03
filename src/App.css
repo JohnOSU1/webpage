@@ -38,25 +38,30 @@ body {
   background-color: #66B2FF; /* lighter blue on hover */
 }
 
+.scroll-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  z-index: 9;
+}
+
 .left-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: sticky;     /*Keeps header stuck on left side, but allows for scrolling */
+  top: 0;               /*Has to be 0 for sticky */
   width: 50vw;
   height: 100vh;
-  z-index: 10;
-  
+  overflow-y: auto;
+  z-index: 9;
 }
 
 .right-content {
-  margin-left: 50vw;
   width: 50vw;
-  height: 100vh;
+  height: auto;
+  overflow-y: visible;
   position: relative;
-  z-index: 10;
-  overflow-y: auto;
-  overflow-x: hidden; /* prevents horizontal scroll */
-  box-sizing: border-box;
+  z-index: 9;
 }
 
 .header-bottom {
@@ -65,11 +70,9 @@ body {
 
 @media (max-width: 768px) {
   .left-header {
-    position: relative;
+    position: static;
     width: 100%;
     height: auto;
-    max-height: 100vh;         /* prevent overflow beyond screen */
-    overflow-y: auto;          /* allow scrolling if content is tall */
     box-shadow: none;
   }
   .right-content {
