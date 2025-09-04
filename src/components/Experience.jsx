@@ -12,14 +12,14 @@ const Experience = () => {
         </ul>
       </div>
       <div>
-        <h4>2023, Alaska Dept. of Fish & Game Information Management Program Internship: </h4>
+        <h4>2023, Alaska Dept. of Fish & Game Information Management Program Internship </h4>
         <ul>
           <li>Worked on department’s website which was slated to be transferred from its current platform to a new service, Umbraco. Codebase consisted primarily of CSS and JavaScript files.  Adapted online training and tools to support quick and efficient transfer.  </li>
           <li> Updated website to include Bootstrap. Transfer included updating the menu, redesigning page contents to be more responsive, and making cleaner, sleek pages, while maintaining aspects of previous style.   </li>
         </ul>
       </div>
       <div>
-        <h4>2021, Alaska Dept. of Fish & Game Information Management Program Volunteer: </h4>
+        <h4>2021, Alaska Dept. of Fish & Game Information Management Program Volunteer </h4>
         <ul>
           <li>Gained experience optimizing photos, coding, and uploading to the state website.   </li>
           <li>Optimized and coded photos into web files to provide a better viewing experience. </li>

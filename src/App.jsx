@@ -17,7 +17,7 @@ function App() {
       <div class="scroll-wrapper">
         <header class="left-header">
           <h1>John Polasek</h1>
-          <p>Majoring in Computer Science at Oregon State University, with a certificate in Cyber Security.</p> 
+          <h3>Majoring in Computer Science at Oregon State University, <br /> including a certificate in Cyber Security.</h3> 
           <div className="header-bottom">
           <Navigation />
           <footer>

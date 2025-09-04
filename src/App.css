@@ -31,6 +31,7 @@ body {
   height: 100vh;
   overflow-y: auto;
   z-index: 9;
+  margin: 5px;
 }
 
 .right-content {
@@ -77,7 +78,7 @@ body {
 
 
 .app-nav a {
-  padding: 0px 20px 5px 20px;
+  padding: 5px 20px 5px 20px;
   background-color:rgb(0, 73, 242);
   text-decoration:none;
   color:rgb(0, 204, 255);
@@ -223,7 +224,7 @@ button{
 }
 
 .code-lan p {
-  background-color: #007BFF; 
+  background-color: rgba(0, 61, 131, 0.509); 
   color: white;
   padding: 10px;
   text-align: center;
@@ -233,7 +234,7 @@ button{
 }
 
 .code-lan p:hover {
-  background-color: #66B2FF; 
+  background-color: rgba(0, 61, 131, 0.822);
 }
 
 .courses {
@@ -244,38 +245,47 @@ button{
 }
 
 .courses p {
-  background-color: #007BFF; /* blue */
-  color: white;
+  background-color: rgba(0, 61, 131, 0.509); 
   padding: 10px;
   text-align: center;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
   margin: 0;
 }
 
 .courses p:hover {
-  background-color: #66B2FF; /* lighter blue on hover */
+  background-color: rgba(0, 61, 131, 0.822); 
 }
 
 
 .projects div {
-  background-color: rgba(14, 1, 92, 0.509);
+  background-color: rgba(0, 61, 131, 0.509);
   border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 5px;
+  padding: 1px 5px 5px 5px;
+  margin: 10px;
 }
 
 .projects div:hover {
-  background-color: rgba(15, 1, 92, 0.621);
+  background-color: rgba(0, 61, 131, 0.822);
 }
 
 .expirence div {
-  background-color: rgba(14, 1, 92, 0.509);
+  background-color: rgba(0, 61, 131, 0.509);
   border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 1px 5px 5px 5px;
+  margin: 10px;
 }
 
 .expirence div:hover {
-  background-color: rgba(15, 1, 92, 0.621);
+  background-color: rgba(0, 61, 131, 0.822);
+}
+
+#about{
+  background-color: rgba(0, 61, 131, 0.509);
+  border-radius: 5px;
+  padding: 5px 10px 10px 10px;
+  margin: 10px;
+}
+
+#about:hover{
+  background-color: rgba(0, 61, 131, 0.822);
 }

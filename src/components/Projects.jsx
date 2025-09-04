@@ -11,7 +11,7 @@ const Projects = () => {
         </ul>
       </div>
       <div>
-        <h4>2024, Small Shell: </h4>
+        <h4>2024, Small Shell</h4>
         <ul>
           <li>Small shell was created in C and was able to handle input/output redirection, built-in commands, allowed for foreground and background execution, and had custom signal handlers.</li>
         </ul>
