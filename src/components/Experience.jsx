@@ -7,7 +7,7 @@ const Experience = () => {
         <h4>2024, Alaska Dept. of Fish & Game Analyst/Programmer 1</h4>
         <ul>
           <li>Developed a dynamic user-friendly questionnaire survey interface with Bootstrap, while leveraging SQL Server Management Studio to structure and optimized backend data. Survey used .NET and C# utilized modern web development tools. </li>
-          <li> Managed departmental website updates requests, ensuring timely additions of events, contact details, images, and PDFs based on incoming requests. </li>
+          <li> Managed departmental website update requests, ensuring timely additions of events, contact details, images, and PDFs based on incoming requests. </li>
           <li>Collaborated with requesters to ensure new webpages or edits met all required specifications. </li>
         </ul>
       </div>
