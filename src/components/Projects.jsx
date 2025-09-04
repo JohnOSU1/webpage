@@ -7,7 +7,7 @@ const Projects = () => {
         <h4>2025, Website for Software Engineering</h4>
         <ul>
           <li>Developed a typing practice website for coding in Node.js which included EJS for links, Bootstrap for styling, and a SQL server to store user data.  </li>
-          <li> Collaborated with five peers in developing, implementing, and debugging of a webs </li>
+          <li> Collaborated with peers in developing, implementing, and debugging of a website </li>
         </ul>
       </div>
       <div>

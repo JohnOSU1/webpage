@@ -46,31 +46,7 @@ body {
   margin-top: 40%;
 }
 
-@media (max-width: 768px) {
-  .scroll-wrapper {
-    display: block;
-    height: auto; /* allow full vertical stacking */
-  }
 
-  .left-header {
-    position: relative;
-    width: 100%;
-    height: auto;
-    max-height: none;
-    overflow-y: visible; 
-    box-shadow: none;
-  }
-
-  .right-content {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-  }
-
-  .header-bottom {
-    margin-top: 10px;
-  }
-}
 
 .nav {
   padding-bottom: 10px;
@@ -288,4 +264,47 @@ button{
 
 #about:hover{
   background-color: rgba(0, 61, 131, 0.822);
+}
+
+/* Resizing */
+
+@media (max-width: 768px) {
+  .scroll-wrapper {
+    display: block;
+    height: auto; /* allow full vertical stacking */
+  }
+
+  .left-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    overflow-y: visible; 
+    box-shadow: none;
+  }
+
+  .right-content {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .header-bottom {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+
+  .code-lan,
+  .courses {
+    grid-template-columns: 1fr;
+    margin: 5px;
+  }
+
+  .app-nav a {
+    font-size: 1em;
+    padding: 4px 10px;
+  }
 }
