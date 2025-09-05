@@ -162,6 +162,8 @@ button{
   color: #888;
 }
 
+/*Stars done by: https://github.com/Carla-Codes/starry-night-css-animation */
+
 .stars, .twinkling {
   position:fixed;
   top:0;
@@ -236,7 +238,7 @@ button{
 .projects div {
   background-color: rgba(0, 61, 131, 0.509);
   border-radius: 5px;
-  padding: 1px 15px 5px 5px;
+  padding: 1px 15px 15px 5px;
   margin: 10px;
 }
 
@@ -247,7 +249,7 @@ button{
 .expirence div {
   background-color: rgba(0, 61, 131, 0.509);
   border-radius: 5px;
-  padding: 1px 15px 5px 5px;
+  padding: 1px 15px 5px 15px;
   margin: 10px;
 }
 
