@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div class="expirence">
+    <div className="bulletList">
       <div>
         <h4>2024, Alaska Dept. of Fish & Game Analyst/Programmer 1</h4>
         <ul>

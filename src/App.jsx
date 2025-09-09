@@ -10,14 +10,14 @@ function App() {
   return (
   
     <div>
-      <div class="background">
-        <div class="stars"></div>
-        <div class="twinkling"></div>
+      <div className="background">
+        <div className="stars"></div>
+        <div className="twinkling"></div>
       </div>
-      <div class="scroll-wrapper">
-        <header class="left-header">
+      <div className="scroll-wrapper">
+        <header className="left-header">
           <h1>John Polasek</h1>
-          <h3>Majoring in Computer Science at Oregon State University, <br /> including a certificate in Cyber Security.</h3> 
+          <h3>Majoring in Computer Science at Oregon State University, <br/> including a certificate in Cyber Security.</h3> 
           <div className="header-bottom">
           <Navigation />
           <footer>
@@ -25,7 +25,7 @@ function App() {
           </footer>
         </div>
         </header>
-        <div class="right-content">
+        <div className="right-content">
         <HomePage />
         </div>
       </div>

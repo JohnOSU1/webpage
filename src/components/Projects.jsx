@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div class="projects">
+    <div className="bulletList">
       <div>
         <h4>2025, Website for Software Engineering</h4>
         <ul>
